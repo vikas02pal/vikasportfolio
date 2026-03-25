@@ -10,7 +10,7 @@ const Hero = () => {
             Vikas Pal
           </h1>
           <h3 className="text-2xl md:text-4xl font-bold text-gray-400">
-            Full Stack Developer
+            B.Tech CSE Student & Tech Enthusiast
           </h3>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto md:mx-0">
             I'm a passionate software developer with expertise in C++, Java, Python, JavaScript, and frameworks like React, Node.js, and Spring Boot. 
