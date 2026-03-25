@@ -14,7 +14,7 @@ const About = () => {
             <p className="text-cyan-400 font-medium mb-4">Bachelor of Technology - Computer Science and Engineering</p>
             <div className="flex justify-between items-center text-gray-400 text-sm">
               <span>Punjab, India</span>
-              <span>August 2023 - present</span>
+              <span>August 2023 - Pursuing</span>
             </div>
             <p className="text-gray-300 mt-4">CGPA: 6.68</p>
           </div>
@@ -26,7 +26,7 @@ const About = () => {
               <span>Prayagraj, Uttar Pradesh</span>
               <span>April 2020 - March 2022</span>
             </div>
-            <p className="text-gray-300 mt-4">Percentage: 85.2%</p>
+            <p className="text-gray-300 mt-4">Percentage: 68.2%</p>
           </div>
 
           <div className="bg-[#1a1a1a] p-8 rounded-2xl border border-[#2a2a2a] hover:border-purple-500/50 transition-colors">
@@ -39,25 +39,17 @@ const About = () => {
             <p className="text-gray-300 mt-4">Percentage: 80%</p>
           </div>
           
-          <div className="mt-12 bg-gradient-to-r from-[#1a1a1a] to-[#2a2a2a] p-8 rounded-2xl border border-[#3a3a3a]">
-            <h3 className="text-2xl font-bold text-white mb-6">My Approach & Technical Philosophy</h3>
+          <div className="mt-12 bg-gradient-to-r from-[#1a1a1a] to-[#2a2a2a] p-8 rounded-2xl border border-[#3a3a3a] hover:border-cyan-500/50 transition-colors duration-300">
+            <h3 className="text-2xl font-bold text-white mb-6">What I Do</h3>
             <div className="space-y-4 text-gray-300 leading-relaxed">
               <p>
-                As a Full Stack Developer, my primary objective is to build scalable, secure, and user-centric applications. 
-                I believe that great software is built on a foundation of clean code, robust architecture, and seamless user experiences. 
-                Whether I am developing a high-performance backend system using Java and Spring Boot, or crafting responsive interfaces with React and Tailwind CSS, 
-                my focus remains on solving complex problems through elegant technical solutions.
+                As a Full Stack Developer, I love building clean, user-friendly, and fast applications. I enjoy turning complex problems into simple, beautiful, and intuitive designs.
               </p>
               <p>
-                I approach every project with a strong emphasis on system design and software architecture. 
-                By utilizing best practices in database management (such as MySQL and MongoDB) and building RESTful APIs, 
-                I ensure that the data flow is efficient and secure. Real-world applications demand rigorous testing and monitoring, 
-                which is why I integrate real-time tracking, structured data validation, and modular performance handling in my work.
+                I work on both the front-end (using React and Tailwind CSS) to create responsive layouts, and the back-end (using Java, Node.js, and Databases) to make sure data is handled securely and efficiently.
               </p>
               <p>
-                Beyond writing code, I value continuous learning and effective communication within a team environment. 
-                I actively explore emerging technologies and adapt quickly to new frameworks, ensuring that the 
-                products I develop are not just functional today, but are built to thrive in the future.
+                I believe in continuous learning. I am always looking for new technologies to improve my coding skills and deliver better products for the users.
               </p>
             </div>
           </div>
@@ -79,16 +71,25 @@ const About = () => {
               </li>
               <li className="flex flex-col sm:flex-row sm:justify-between sm:items-center">
                 <span className="text-gray-300 font-medium">Introduction to Hardware and software - Coursera</span>
-                <span className="text-cyan-400 text-sm mt-1 sm:mt-0 whitespace-nowrap"></span>
+                <span className="text-cyan-400 text-sm mt-1 sm:mt-0 whitespace-nowrap">November 2023</span>
               </li>
             </ul>
           </div>
 
-          <div className="bg-gradient-to-r from-[#1a1a1a] to-[#2a2a2a] p-8 rounded-2xl border border-[#3a3a3a]">
+          <div className="bg-gradient-to-r from-[#1a1a1a] to-[#2a2a2a] p-8 rounded-2xl border border-[#3a3a3a] hover:border-purple-500/50 transition-colors duration-300">
              <h3 className="text-xl font-bold text-white mb-4">Extra-Curricular Activities</h3>
-             <p className="text-gray-300">
-               <strong>Women's Development & Empowerment (June 2024):</strong> Community Development Project on the promotion of women's development and empowerment by an NGO.
-             </p>
+             <ul className="space-y-4">
+               <li>
+                 <p className="text-gray-300">
+                   <strong className="text-white">Women's Development & Empowerment (June 2024):</strong> Community Development Project on the promotion of women's development and empowerment by an NGO.
+                 </p>
+               </li>
+               <li>
+                 <p className="text-gray-300">
+                   <strong className="text-white">Build-a-Thon Hackathon:</strong> Engaged in competitive coding, enhancing skills in teamwork and real-world problem-solving.
+                 </p>
+               </li>
+             </ul>
           </div>
         </div>
       </div>
